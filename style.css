@@ -13,8 +13,7 @@ body {
 }
 .cor ul li a{
     text-decoration: none;
-    display: block;
-    color: blue;
+    color: aliceblue;
     text-transform: uppercase;
 }
 .cor ul li::after{
@@ -26,6 +25,8 @@ body {
         letter-spacing: 0;
         bottom: -10px;
         transition: 0.5s;
+
+}
 
 {button
     text-align: center;
