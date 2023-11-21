@@ -13,7 +13,7 @@ body {
 }
 .cor ul li a{
     text-decoration: none;
-    display: inline-block;
+    display: block;
     color: blue;
     text-transform: uppercase;
 }
