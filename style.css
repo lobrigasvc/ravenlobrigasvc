@@ -11,6 +11,20 @@ li {
     display: inline-block;
     margin: 3%
 }
+{button
+    text-align: center;
+    width: 200px;
+    padding: 20px 0;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 30px solid skyblue;
+    background: transparent;
+    color:aliceblue ;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
 
 .killer{
     text-align: center;
