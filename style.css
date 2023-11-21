@@ -5,12 +5,27 @@ body {
     text-align: center;
 }
 
-li {
-
-    color: whitesmoke;
-    display: inline-block;
-    margin: 3%
+.cor ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
 }
+.cor ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.cor ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background:#2b13e4 ;
+        position: absolute;
+        letter-spacing: 0;
+        bottom: -10px;
+        transition: 0.5s;
+
 {button
     text-align: center;
     width: 200px;
